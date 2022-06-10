@@ -27,7 +27,7 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 - [Vite](https://vitejs.dev/)
 - [Typescript](https://www.typescriptlang.org/)
 
-## Executando
+## 🛠️ Executando
 
 ```bash
 # Clone o Repositório
