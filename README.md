@@ -12,12 +12,14 @@
 
 > Primeiro desafio da trilha de ReactJs do Ignite da [Rocketseat](https://github.com/Rocketseat). O projeto consiste em um todo onde é possível adicionar tarefas, remover e marcar como concluídas.
 
-# 📋 Conteúdo
+## 📋
 
-- [Tecnologias](#computer-tecnologias)
-- [Executando](#construction_worker-executando)
-- [Autores](#computer-autores)
-- [Licença](#closed_book-licença)
+# Conteúdo
+
+- [Tecnologias](#tecnologias)
+- [Executando](#executando)
+- [Autores](#autores)
+- [Licença](#licença)
 
 ### Fotos
 
@@ -26,7 +28,9 @@
    <img src="./src/assets/todo.svg" width="400px" />
 </div>
 
-# 💻 Tecnologias
+## 💻
+
+# Tecnologias
 
 Este projeto foi feito utilizando as seguintes tecnologias:
 
@@ -34,7 +38,7 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 - [Vite](https://vitejs.dev/)
 - [Typescript](https://www.typescriptlang.org/)
 
-# 🛠️ Executando
+## Executando
 
 ```bash
 # Clone o Repositório
@@ -53,7 +57,9 @@ $ yarn dev
 
 Acesse <http://localhost:3000> para ver o resultado.
 
-# 🖊️ Autores
+## 🖊️
+
+# Autores
 
 <table>
   <tr>
@@ -86,6 +92,8 @@ Acesse <http://localhost:3000> para ver o resultado.
   </tr>
 </table>
 
-# 📃 Licença
+## 📃
+
+# Licença
 
 Este projeto está sob a licença [MIT](./LICENSE).
