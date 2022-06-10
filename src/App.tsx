@@ -86,9 +86,13 @@ function App() {
         </div>
         <div>
           <p>Concluídas</p>
-          <p className={styles.tasksCount}>
-            {countComplete} de {countTasks}
-          </p>
+          {countComplete == 0 ? (
+            <p className={styles.tasksCount}>{countComplete}</p>
+          ) : (
+            <p className={styles.tasksCount}>
+              {countComplete} de {countTasks}
+            </p>
+          )}
         </div>
       </div>
 

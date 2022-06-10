@@ -46,7 +46,7 @@ $ yarn dev
 
 Acesse <http://localhost:3000> para ver o resultado.
 
-## 🖊️Autores
+## 🖊️ Autores
 
 <table>
   <tr>

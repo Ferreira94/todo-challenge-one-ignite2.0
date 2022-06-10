@@ -1,5 +1,4 @@
 .container {
-  height: 4.5rem;
   background: var(--gray-500);
   display: flex;
   justify-content: center;
