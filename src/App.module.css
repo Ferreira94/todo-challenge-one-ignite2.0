@@ -1,0 +1,111 @@
+.home form {
+  width: 46rem;
+  margin: -1.687rem auto 4.325rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home form input {
+  width: 40rem;
+  height: 3.375rem;
+  padding-left: 1rem;
+  border-radius: 8px;
+  border: 0;
+  background-color: var(--gray-500);
+  color: var(--var-100);
+}
+
+.home form button {
+  width: 5.625rem;
+  height: 3.375rem;
+  font-size: 0.875rem;
+  background-color: var(--blue-500);
+  color: var(--var-100);
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.1s;
+}
+
+.home form button:hover:not(:disabled) {
+  background-color: var(--blue-300);
+}
+
+.home form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.home form button div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home form button div svg {
+  margin-left: 0.325rem;
+  font-size: 1rem;
+}
+
+.taskCountContainer {
+  width: 46rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.taskCountContainer div {
+  display: flex;
+}
+
+.taskCountContainer div p {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--purple-300);
+}
+
+.taskCountContainer div.createTaskContainer p {
+  color: var(--blue-300);
+}
+
+.taskCountContainer div .tasksCount,
+.taskCountContainer div.createTaskContainer .tasksCount {
+  padding: 0.03rem 0.5rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  margin-left: 1rem;
+}
+
+.taskContainer {
+  width: 46rem;
+  height: 2rem;
+  margin: 1.5rem auto 0;
+}
+
+.taskContainer .tasksEmpty {
+  border-radius: 8px;
+  border-top: 1px solid var(--gray-400);
+  text-align: center;
+}
+
+.taskContainer .tasksEmpty svg {
+  font-size: 3.5rem;
+  color: var(--gray-400);
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.taskContainer .tasksEmpty p {
+  color: var(--gray-300);
+  font-weight: 700;
+}
+
+.taskContainer .tasksEmpty p + p {
+  font-weight: 300;
+}
